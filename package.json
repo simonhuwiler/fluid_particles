@@ -1,0 +1,43 @@
+{
+  "name": "simonhuwiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonhuwiler/fluid_particles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/simonhuwiler/fluid_particles#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-inline-json-import": "^0.3.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.2",
+    "css-loader": "^2.1.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "json-loader": "^0.5.7",
+    "mini-css-extract-plugin": "^1.3.9",
+    "script-ext-html-webpack-plugin": "^2.1.3",
+    "start-server-webpack-plugin": "^2.2.5",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.5.0"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.6.4"
+  }
+}
