@@ -7,6 +7,9 @@ See `src/index.js` for examples.
 
 ## Example
 ```javascript
+// Get Canvas
+let canvas = document.getElementById('canvas');
+
 // Create Flow Canvas
 let fc = new FlowCanvas({
   canvas: canvas,
@@ -17,14 +20,14 @@ fc.addPipes(new Pipe({
   // Canvas
   canvas: canvas,
 
-  // Where the it should flow
+  // Where it should flow
   path: [
     {x: 0, y: 0}, // Start
-    {x: 250, y: 350}, //Stopover
+    {x: 250, y: 350}, //Stopover (as many as required)
     {x: 250, y: 500} // End
   ],
 
-  // How wide is the pipe? 15px shift from original route
+  // How wide is the pipe? +-15px shift from original route
   shift: 15,
 
   // number of particles
