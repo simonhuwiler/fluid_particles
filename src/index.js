@@ -60,7 +60,7 @@ fc.addPipes(new Pipe({
 }))
 
 // Let's start!
-// fc.start();
+fc.start();
 
 // Register buttons
 document.getElementById('start').addEventListener("click", () => fc.start())
